@@ -49,12 +49,4 @@ dependencies {
     implementation 'com.github.shaoshuai904:RecordWav:1.0.2'
     implementation "androidx.appcompat:appcompat:1.0.0"
     implementation 'com.github.adrielcafe:AndroidAudioConverter:0.0.8'
-    implementation 'com.github.adrielcafe:ffmpeg-android-java:v0.3.2'
-}
-
-allprojects {
-    repositories {
-        mavenCentral()
-		maven { url 'https://www.jitpack.io' }
-    }
 }

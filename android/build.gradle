@@ -52,10 +52,9 @@ dependencies {
     implementation 'com.github.adrielcafe:ffmpeg-android-java:v0.3.2'
 }
 
-dependencyResolutionManagement {
-		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-		repositories {
-			mavenCentral()
-			maven { url 'https://www.jitpack.io' }
-		}
+allprojects {
+    repositories {
+        mavenCentral()
+		maven { url 'https://www.jitpack.io' }
+    }
 }
